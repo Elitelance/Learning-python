@@ -5,3 +5,7 @@ print("Enter the second coordinates:" )
 x2 , y2 = (input().split())
 dist = math.sqrt(((x2-x1)**2) + (y2-y1)**2)
 print(dist)
+
+#I get this error
+dist = math.sqrt(((x2-x1)**2) + (y2-y1)**2)
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
